@@ -1,5 +1,5 @@
 {
-  description = "My home manager config"
+  description = "My home manager config";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-23.11";
