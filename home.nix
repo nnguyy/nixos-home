@@ -10,5 +10,9 @@
     homeDirectory = "/home/nnguy";
 
     stateVersion = "23.11";
+
+    file = {
+      "hello.txt".text = "Hello, world!";
     };
+  };
 }
