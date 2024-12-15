@@ -12,7 +12,10 @@
     stateVersion = "23.11";
 
     file = {
-      "hello.txt".text = "Hello, world!";
+      "hello.txt" = {
+        text = "echo 'Hello, world!'";
+	executable = true;
+      };
     };
   };
 }
