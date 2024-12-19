@@ -25,7 +25,6 @@
 	  natural_scroll = true;
 	};
 	accel_profile = "flat";
-	sensitiviy = 0;
       };
 
       decoration = {
