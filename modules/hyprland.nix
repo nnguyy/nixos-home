@@ -42,7 +42,6 @@
 	inactive_opacity = 0.8;
 	fullscreen_opacity = 1;
 	shadow = {
-	  enabled = true;
 	  color = "rgba(1a1a1aee)";
 	};
 	blur = {
