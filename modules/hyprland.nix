@@ -32,7 +32,7 @@
         rounding = 15;
 	active_opacity = 0.9;
 	inactive_opacity = 0.8;
-	fullscreen_opacity = ,1;
+	fullscreen_opacity = 1;
 	blur = {
 	  enabled = true;
 	  size = 14;
