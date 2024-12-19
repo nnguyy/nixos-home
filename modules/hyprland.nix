@@ -9,11 +9,6 @@
       "$mod" = "SUPER";
       "$menu" = "wofi --show drun";
 
-      env = [
-        "XCURSOR_SIZE,24";
-        "HYPRCURSOR_SIZE,24";
-        "HYPRCURSOR_THEME,rose-pine-hyprcursor";
-      ];
 
       monitor = [",1920x1080@180,auto,1"];
 
@@ -44,7 +39,7 @@
 	  enabled = true;
 	  range = 4;
 	  render_power = 3;
-	  color = "rgba(1a1a1aee)";
+	  color = "rgba(1a1a1aee)"
 	};
 	blur = {
 	  enabled = true;
