@@ -15,7 +15,6 @@
 	gaps_out = 6;
 	border_size = 2;
 	layout = "dwindle";
-	allowing_tearing = true;
       };
 
       input = {
