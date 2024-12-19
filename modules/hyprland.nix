@@ -14,6 +14,11 @@
 	"WLR_NO_HARDWARE_CURSORS,1"
       ];
 
+      exec-once = [
+        "$terminal"
+	"waybar"
+      ];
+
 
       monitor = [",1920x1080@180,auto,1"];
 
