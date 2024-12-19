@@ -89,7 +89,7 @@
 	"$mod, c, pseudo"
 	"$mod, x, togglesplit"
 	
-	"$mod, i, movefocus, l"
+	"$mod, j, movefocus, l"
 	"$mod, l, movefocus, r"
 	"$mod, i, movefocus, u"
 	"$mod, k, movefocus, d"
