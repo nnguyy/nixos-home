@@ -40,7 +40,7 @@
 	  brightness = 1;
 	  noise = 0.01;
 	};
-	drop_shadow = true
+	drop_shadow = true;
       };
 
       animations = {
