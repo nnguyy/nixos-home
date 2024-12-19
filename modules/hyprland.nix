@@ -46,7 +46,6 @@
 	  enabled = true;
 	  size = 3;
 	  passes = 1;
-	  render_power = 3;
 	  vibrancy = 0.1696;
 	};
       };
