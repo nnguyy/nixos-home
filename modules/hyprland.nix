@@ -23,8 +23,8 @@
       monitor = [",1920x1080@180,auto,1"];
 
       general = {
-        gaps_in = 5;
-	gaps_out = 5;
+        gaps_in = 3;
+	gaps_out = 0;
 	border_size = 2;
 	resize_on_border = true;
 	layout = "dwindle";
@@ -46,6 +46,8 @@
 	inactive_opacity = 0.8;
 	fullscreen_opacity = 1;
 	drop_shadow = true;
+	shadow_range = 4;
+	shadow_render_power = 3;
 	blur = {
 	  enabled = true;
 	  size = 3;
@@ -77,14 +79,15 @@
       };
 
       bind = [
+        "$mod, f, fullscreen"
         "$mod, return, exec, $terminal"
-	"$mod, q, killactive"
+	"$mod, w, killactive"
 	"$mod, m, exit"
-	"$mod, e, exec, $fileManager"
-	"$mod, v, togglefloating"
-	"$mod, r, exec, $menu"
-	"$mod, p, pseudo"
-	"$mod, j, togglesplit"
+	"$mod, s, exec, $fileManager"
+	"$mod, z, togglefloating"
+	"$mod, a, exec, $menu"
+	"$mod, c, pseudo"
+	"$mod, x, togglesplit"
 	
 	"$mod, i, movefocus, l"
 	"$mod, l, movefocus, r"
@@ -101,6 +104,17 @@
 	"$mod, 8, workspace, 8"
 	"$mod, 9, workspace, 9"
 	"$mod, 0, workspace, 10"
+
+	"$mod SHIFT, 1, movetoworkspace, 1"
+	"$mod SHIFT, 2, movetoworkspace, 2"
+	"$mod SHIFT, 3, movetoworkspace, 3"
+	"$mod SHIFT, 4, movetoworkspace, 4"
+	"$mod SHIFT, 5, movetoworkspace, 5"
+	"$mod SHIFT, 6, movetoworkspace, 6"
+	"$mod SHIFT, 7, movetoworkspace, 7"
+	"$mod SHIFT, 8, movetoworkspace, 8"
+	"$mod SHIFT, 9, movetoworkspace, 9"
+	"$mod SHIFT, 0, movetoworkspace, 10"
       ];
 
       windowrulev2 = [
