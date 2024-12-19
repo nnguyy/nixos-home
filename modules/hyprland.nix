@@ -35,7 +35,7 @@
 	active_opacity = 0.9;
 	inactive_opacity = 0.8;
 	fullscreen_opacity = 1;
-	shadow {
+	shadow = {
 	  enabled = true;
 	  range = 4;
 	  render_power = 3;
