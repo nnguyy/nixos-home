@@ -9,6 +9,12 @@
       "$mod" = "SUPER";
       "$menu" = "wofi --show drun";
 
+      env = [
+        "XCURSOR_SIZE,24";
+	"HYPRCURSOR_THEME,rose-pine-hyprcursor";
+	"HYPRCURSOR_SIZE,24";
+      ];
+
 
       monitor = [",1920x1080@180,auto,1"];
 
