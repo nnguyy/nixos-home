@@ -50,7 +50,6 @@
       };
       
       cursor = {
-        enabled_hyprcursor = true;
       };
 
       dwindle = {
