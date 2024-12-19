@@ -1,8 +1,11 @@
 { lib, pkgs, ... }:
 {
+  imports = [
+    ./modules/hyprland.nix
+  ];
+
   home = {
     packages = with pkgs; [
-      hello
       cowsay
       lolcat
     ];
