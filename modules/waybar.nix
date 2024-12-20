@@ -4,7 +4,6 @@
     enable = true;
 
     settings = {
-      mainBar = {
         layer = "top";
 	position = "top";
 	output = [
@@ -29,7 +28,6 @@
       };
 
       "timezone" = "America/New_York";
-      };
     };
   };
 }
