@@ -3,7 +3,7 @@
   programs.waybar = {
     enable = true;
 
-    settings = { 
+    settings = [{ 
       layer = "top";
       position = "top";
       modules-left = [ "hyprland/workspaces" "hyprland/mode" ];
@@ -22,6 +22,6 @@
       "clock" = {
       format = "{:%a %d. %b  %I:%M %p}";
       };
-    };
+    }];
   }; 
 }
