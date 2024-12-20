@@ -20,7 +20,7 @@
 
       "battery" = {
         "format" = "{capacity}% {icon}";
-	"format-icons": ''["1","2","3","4","5"]'';
+	"format-icons" = ''["1","2","3","4","5"]'';
       };
 
       "clock" = {
