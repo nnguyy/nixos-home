@@ -4,8 +4,7 @@
     enable = true;
     package = pkgs.waybar;
 
-    settings = {
-      mainBar = {
+    settings = {[
         layer = "top";
 	position = "top";
 	height = 30;
@@ -28,7 +27,7 @@
 	"clock" = {
 	format = "{:%a %d. %b  %I:%M %p}";
 	};
-      };
+      }];
     };
   }; 
 }
