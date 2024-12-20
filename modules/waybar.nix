@@ -28,6 +28,26 @@
 	format = "{:%a %d. %b  %I:%M %p}";
 	};
     }];
+
+    style = ''
+    * {
+      border: none;
+      border-radius: 0;
+      padding: 0;
+      margin: 0;
+      font-size: 11px;
+    }
+
+    window#waybar {
+      background: #292828;
+      color: #ffffff;
+    }
+
+    #battery {
+      margin-left: 7px;
+      margin-right: 3px;
+    }
+    '';
   };
 }
 
