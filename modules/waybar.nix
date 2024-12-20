@@ -3,7 +3,7 @@
   programs.waybar = {
     enable = true;
 
-    settings = [{
+    settings = {
       layer = "top";
       position = "top";
 
@@ -23,7 +23,7 @@
       "clock" = {
         format = "{:%a %d. %b  %I:%M %p}";
       };
-    }];
+    };
   };
 
   programs.waybar.package = pkgs.waybar.overrideAttrs (oa: {
