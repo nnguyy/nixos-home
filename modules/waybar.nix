@@ -4,7 +4,7 @@
     enable = true;
     package = pkgs.waybar;
 
-    settings = {[
+    settings = [{
         layer = "top";
 	position = "top";
 	height = 30;
