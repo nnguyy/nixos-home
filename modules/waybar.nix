@@ -4,7 +4,7 @@
     enable = true;
 
     settings = {
-    mainBar = {
+      mainBar = {
         layer = "top";
 	position = "top";
 	output = [
