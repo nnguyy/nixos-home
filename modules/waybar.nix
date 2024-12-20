@@ -21,7 +21,7 @@
       "clock" = {
         format = "{:%a %d. %b  %I:%M %p}";
       };
-      "timezone" = ''"America/New_York"''
+      "timezone" = ''"America/New_York"'';
     };
   };
 }
